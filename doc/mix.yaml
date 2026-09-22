@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - CAPS
+  - {t: CAPSLOCK, h: Buleth}
   - A
   - S
   - D
@@ -50,66 +50,65 @@ layers:
   - /
   - RSHFT
   - LCTRL
-  - MUTE
+  - LEFT GUI
   - LEFT ALT
-  - LGUI
-  - layer 1
+  - {t: BACKSPACE, h: layer 1}
   - SPACE
-  - ENTER
-  - layer 2
-  - LEFT WIN
-  - RIGHT ALT
-  - {t: SPACE, h: Buleth}
+  - {t: ENTER, h: layer 2}
+  - {t: ENTER, h: layer 2}
+  - SPACE
+  - {t: BACKSPACE, h: layer 1}
+  - {t: '-', h: '['}
+  - {t: '=', h: ']'}
   - RCTRL
   layer 1:
-  - F12
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP DIVIDE
+  - KP MULTIPLY
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F5
   - F6
   - F7
   - F8
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,10 +119,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 0
+  - KP DOT
   - {t: ▽, type: trans}
   layer 2:
-  - {t: ▽, type: trans}
+  - '~'
   - '!'
   - '@'
   - '#'
@@ -137,11 +137,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HOME
+  - UP
+  - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -149,11 +149,11 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -161,9 +161,9 @@ layers:
   - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,12 +176,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: Sft+-, h: 'Sft+['}
+  - {t: Sft+=, h: 'Sft+]'}
   - {t: ▽, type: trans}
   Buleth:
   - BT CLR
@@ -196,44 +196,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - BRIGHTNESS INC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -243,6 +209,40 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - MUTE
+  - Gui+D
+  - {t: ▽, type: trans}
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - BRIGHTNESS DEC
+  - {t: ▽, type: trans}
+  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 11, 54, 53]
