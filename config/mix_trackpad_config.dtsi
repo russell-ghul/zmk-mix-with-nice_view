@@ -14,7 +14,7 @@
 #define MIX_CIRQUE_SENSITIVITY "2x"
 
 /* Mouse pointer speed: 5/2 (@1x default), 5/2 (@2x fast), 3/1 (very fast) */
-#define MIX_MOUSE_SPEED_NUM 5
+#define MIX_MOUSE_SPEED_NUM 3
 #define MIX_MOUSE_SPEED_DEN 2
 
 /* Scroll speed: 1/6 (default @1x), 1/30 (@2x slow), 1/20 (@2x medium) */
