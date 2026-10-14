@@ -44,10 +44,6 @@
 &kp LSHFT       &kp Z         &kp X         &kp C            &kp V         &kp B        &kp N         &kp M      &kp COMMA        &kp DOT                 &kp FSLH                 &kp RSHFT
 &kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 BACKSPACE  &kp SPACE     &lt 2 ENTER  &lt 2 ENTER   &kp SPACE  &lt 1 BACKSPACE  &mt LEFT_BRACKET MINUS  &mt RIGHT_BRACKET EQUAL  &kp RCTRL
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&encoder_sc SCRL_UP SCRL_DOWN>;
         };
 
         LAYER1 {
@@ -59,8 +55,6 @@
 &trans     &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &trans
 &trans     &trans  &trans   &trans   &trans   &trans  &trans  &trans           &trans           &kp KP_NUMBER_0  &kp KP_DOT    &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         LAYER2 {
@@ -72,10 +66,6 @@
 &trans     &trans           &kp END      &trans    &kp PAGE_DOWN  &trans       &trans     &trans         &kp LESS_THAN  &kp GREATER_THAN                &kp QUESTION                     &trans
 &trans     &trans           &trans       &trans    &trans         &trans       &trans     &trans         &trans         &mt LS(LEFT_BRACKET) LS(MINUS)  &mt LS(RIGHT_BRACKET) LS(EQUAL)  &trans
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         LAYER3 {
@@ -87,10 +77,6 @@
 &trans      &trans        &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &trans        &kp DELETE       &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans             &trans                &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
     };
 };
